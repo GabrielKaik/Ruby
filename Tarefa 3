@@ -1,0 +1,11 @@
+print 'Insira uma palavra: '
+
+palavra = gets.chomp
+
+metade = palavra.length / 2 
+c = 0
+
+while c <= metade
+    print palavra[c]
+    c = c + 1
+end

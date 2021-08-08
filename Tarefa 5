@@ -1,0 +1,27 @@
+puts "digite o código DDD e veja a qual lugar ele pertence" 
+
+ddd=gets.chomp.to_i
+
+case ddd
+when 61
+   puts "LOCAL : Brasilia"
+
+   when 71
+   puts "LOCAL : salvador"
+
+   when 11
+   puts "LOCAL : sao paulo"
+
+   when 21
+   puts " LOCAL : rio de janeiro"
+   
+   when 32
+    puts "LOCAL :juiz de fora"
+
+   when 19
+    puts "LOCAL : campinas"
+   else
+    puts "DDD nao registrado"
+   end
+
+   system("pause")

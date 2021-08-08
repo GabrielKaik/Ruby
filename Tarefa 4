@@ -1,0 +1,15 @@
+print 'Digite sua data de nascimento no formato dd/mm/aaaa: '
+nasc = gets.chomp
+
+def calculo(nasc)
+    nasc.split('/')
+    c = 0
+    soma = 0
+    while c < nasc.length
+        soma += nasc[c].to_i
+        c += 1
+    end
+    puts ("#{nasc[0]}+#{nasc[1]}+#{nasc[3]}+#{nasc[4]}+#{nasc[6]}+#{nasc[7]}+#{nasc[8]}+#{nasc[9]}=#{soma}")
+end
+
+calculo(nasc)

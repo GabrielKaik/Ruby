@@ -1,0 +1,19 @@
+print 'Digite um valor que seja positivo e inteiro: '
+num= gets.chomp.to_i
+
+if num<0
+    while num<0
+        puts 'Digite um valor que seja positivo e inteiro'
+        num=gets.chomp.to_i
+    end
+end
+
+while num>=0
+    puts "#{num}"
+    num = num - 1
+    
+    if num < 0
+        puts 'KABUM'
+    end
+    
+end

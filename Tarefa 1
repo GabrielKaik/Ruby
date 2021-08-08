@@ -1,0 +1,13 @@
+puts "Digite seu nome"
+nome = gets.chomp
+ 
+
+quantia = nome.length
+ 
+
+
+
+
+puts "O nome #{nome} tem #{quantia.to_s} caracteres "
+
+system("pause")

@@ -1,0 +1,11 @@
+print "digite seu nome"
+
+name = gets.chomp
+
+name.reverse!
+
+
+
+print "Seu nome ao contrário é: " + name 
+
+system("pause")
